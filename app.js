@@ -13,7 +13,7 @@ $(".search-bar").keyup(function(event){
 $('#next_page').click(function(){
     $("#search").click();
 });
-
+ 
 
 $("#search").click(function(){
 
