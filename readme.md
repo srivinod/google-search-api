@@ -1,8 +1,9 @@
 
-## Basic Google Custom Search API feature list:
+# Google Custom Search API:
 
- * Only 100 API requests per day
- * Search similar to google search irrespective of location and cookies
+## Limitations:
+
+Only 100 API requests per day.
  
 ## Note:
 
