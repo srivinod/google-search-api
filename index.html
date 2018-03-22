@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="main.css?v=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<body>
+
+  <div class="search">
+    <div class="logo">
+      <br>
+    <!--  <img src="http://www.thelogofactory.com/wp-content/uploads/2015/09/fixed-google-logo-font.png" /> -->
+      <h1 class="logo-text">Google Search API</h1>
+      <br>
+    </div>
+
+    <div class="searchBox">
+      <input class="search-bar" type="text" placeholder="Your keyword here..." autofocus x-webkit-speech/>
+    </div>
+
+<br>
+    <div class="apikeyBox hide" >
+      <span><p>Your API Credentials</p></span>
+      <input class="cxId" name="cxid" type="text" placeholder="Enter CX key" autofocus x-webkit-speech/>
+      <input class="apiKey" type="text" name="apikey" placeholder="Enter API key" autofocus x-webkit-speech/>
+    </div>
+
+    <div class="search-nav">
+      <br>
+      <div class="search-button">
+        <a><button id="search">&nbsp; Go &nbsp;</button></a>
+      </div>
+
+
+      <h2 class="occurence"></h2>
+
+
+    </div>
+
+    <div class="search-results">
+    </div>
+
+    <div class="pagination" >
+      <a href="#" class="active" id="next_page">Next Page &raquo;</a>
+    </div>
+
+  </div>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
